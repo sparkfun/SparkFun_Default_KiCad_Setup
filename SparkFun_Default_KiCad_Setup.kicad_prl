@@ -72,6 +72,19 @@
     "version": 3
   },
   "project": {
-    "files": []
+    "files": [
+      {
+        "name": "SparkFun_Default_KiCad_Setup.kicad_pcb",
+        "open": false,
+        "window": {
+          "display": 1,
+          "maximized": true,
+          "pos_x": 1912,
+          "pos_y": -51,
+          "size_x": 1936,
+          "size_y": 1056
+        }
+      }
+    ]
   }
 }
