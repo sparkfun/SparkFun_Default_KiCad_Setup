@@ -4,7 +4,6 @@ ehthumbs.db
 
 #KiCad Backup files
 *.kicad_prl
-*.kicad_sch
 fp-info-cache
 ~*.lck
 *-bak
