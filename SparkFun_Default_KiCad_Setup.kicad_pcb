@@ -175,7 +175,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Aesthetic:Creative_Commons_License"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -224,6 +224,7 @@
 			)
 		)
 		(path "/a21e6db0-b885-4793-a405-9dcb22fe3734")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
@@ -281,7 +282,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Semiconductor-Standard:SOT23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -293,7 +294,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.richtek.com/SaveDownload.aspx?specid=RT9080"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -305,7 +306,7 @@
 				)
 			)
 		)
-		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -365,7 +366,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "SOT?23?5*")
 		(path "/cdfa697e-e7e0-4f04-9164-1dfaae95c57a")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_line
 			(start -0.4294 -1.27)
@@ -603,7 +606,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -627,7 +630,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -639,7 +642,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/c940a163-db7d-42f9-8ee0-b2f95ef1aa75")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -693,7 +698,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Hardware:Standoff"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -717,7 +722,7 @@
 				)
 			)
 		)
-		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -729,7 +734,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/56277993-b69c-4076-80f1-028732d58d81")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -778,7 +785,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -802,7 +809,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -814,7 +821,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/7a72b518-2fca-4a85-8df7-c0d3aac86170")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -876,7 +885,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -900,7 +909,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -912,7 +921,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/a7ec6cc9-20f8-4a12-9541-29a9be25ae1c")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -975,7 +986,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -987,7 +998,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -999,7 +1010,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1047,7 +1058,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/aa9eb691-e972-4df2-89dd-4a75608056ea")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -1208,7 +1221,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Hardware:Standoff"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1232,7 +1245,7 @@
 				)
 			)
 		)
-		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1244,7 +1257,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -1831,7 +1846,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1843,7 +1858,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1855,7 +1870,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -1903,7 +1918,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/49c9902b-96fb-44ba-8540-cd23d9f4fbaf")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2064,7 +2081,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Connector:TestPoint-0.75mm"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2088,7 +2105,7 @@
 				)
 			)
 		)
-		(property "Description" "Test Point"
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2100,7 +2117,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Pin* Test*")
 		(path "/1f5a2ff4-5949-427f-96b0-21e72279c06a")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -2155,7 +2174,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Capacitor:C_0603_1608Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2167,7 +2186,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2179,7 +2198,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2227,7 +2246,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/db77a76e-0e11-4f24-a6a1-a0ee14a03fa1")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2388,7 +2409,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Hardware:Standoff"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2412,7 +2433,7 @@
 				)
 			)
 		)
-		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2424,7 +2445,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -2475,7 +2498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Capacitor:C_0402_1005Metric"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2487,7 +2510,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://cdn.sparkfun.com/assets/8/a/4/a/5/Kemet_Capacitor_Datasheet.pdf"
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2499,7 +2522,7 @@
 				)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
+		(property "Description" ""
 			(at 0 0 -90)
 			(layer "F.Fab")
 			(hide yes)
@@ -2547,7 +2570,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "C_*")
 		(path "/3f9c6745-093c-43e4-a840-0baff3ea70ee")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_line
@@ -2708,7 +2733,7 @@
 				(justify top)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Hardware:Standoff"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2732,7 +2757,7 @@
 				)
 			)
 		)
-		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
+		(property "Description" ""
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2744,7 +2769,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/01446c66-91f5-46d5-b726-b2bbfbf726eb")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(fp_circle
 			(center 0 0)
@@ -2795,7 +2822,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2819,7 +2846,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2831,7 +2858,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/dc433178-d09e-452f-afc5-9f3f7047a6a6")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_circle
@@ -2895,7 +2924,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2919,7 +2948,7 @@
 				)
 			)
 		)
-		(property "Description" "Fiducial Marker"
+		(property "Description" ""
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -2931,7 +2960,9 @@
 				)
 			)
 		)
+		(property ki_fp_filters "Fiducial*")
 		(path "/8a112979-36f8-4a6b-b258-9444d791641a")
+		(sheetname "Root")
 		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
 		(attr smd)
 		(fp_circle
