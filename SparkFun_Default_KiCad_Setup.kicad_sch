@@ -2642,23 +2642,21 @@
 	)
 	(text "Voltage Regulation"
 		(exclude_from_sim no)
-		(at 118.11 67.31 0)
+		(at 139.7 68.58 0)
 		(effects
 			(font
 				(size 3 3)
 			)
-			(justify left bottom)
 		)
 		(uuid "2c4f6cd6-584e-4ad2-9758-68e2af50bc1d")
 	)
 	(text "Max input voltage: 6V"
 		(exclude_from_sim no)
-		(at 128.27 105.41 0)
+		(at 139.7 104.14 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
 		)
 		(uuid "99619214-ee19-4239-96d0-4f96c62d3d5e")
 	)
