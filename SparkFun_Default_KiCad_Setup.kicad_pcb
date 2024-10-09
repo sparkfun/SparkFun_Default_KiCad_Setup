@@ -8,6 +8,9 @@
 	)
 	(paper "USLetter")
 	(title_block
+		(title "SparkFun Product (Qwiic)")
+		(rev "v10")
+		(company "SparkFun")
 		(comment 1 "Designed by: You")
 	)
 	(layers
