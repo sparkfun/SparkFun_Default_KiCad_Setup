@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Product (Qwiic)")
-		(date "2024-03-06")
 		(rev "v10")
+		(company "SparkFun")
 		(comment 1 "Designed by: You")
 	)
 	(lib_symbols
