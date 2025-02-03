@@ -15,26 +15,30 @@
 	)
 	(layers
 		(0 "F.Cu" signal)
-		(1 "In1.Cu" signal)
-		(2 "In2.Cu" signal)
-		(31 "B.Cu" signal)
+		(1 "In1.Cu" signal "L2.Cu")
+		(2 "In2.Cu" signal "L3.Cu")
+		(31 "B.Cu" jumper)
 		(34 "B.Paste" user)
 		(35 "F.Paste" user)
 		(36 "B.SilkS" user "B.Silkscreen")
 		(37 "F.SilkS" user "F.Silkscreen")
 		(38 "B.Mask" user)
 		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
+		(40 "Dwgs.User" user "Measures")
+		(41 "Cmts.User" user "V-score")
+		(42 "Eco1.User" user "Fab.Info")
+		(43 "Eco2.User" user "License.Info")
 		(44 "Edge.Cuts" user)
 		(45 "Margin" user)
 		(46 "B.CrtYd" user "B.Courtyard")
 		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
+		(48 "B.Fab" user "B.Outlines")
+		(49 "F.Fab" user "F.Outlines")
+		(50 "User.1" user "Milling")
+		(51 "User.2" user "Design.Info")
+		(52 "User.3" user "Board.Properties")
+		(53 "User.4" user "Selective.Solder")
+		(54 "User.5" user "Enclsoure.Info")
 	)
 	(setup
 		(stackup
@@ -230,7 +234,7 @@
 		(attr exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
 			(at 0 1.27 0)
-			(layer "User.1")
+			(layer "Eco2.User")
 			(uuid "7b814ab9-c21e-4741-9c1c-85f540df076e")
 			(effects
 				(font
@@ -242,7 +246,7 @@
 		)
 		(fp_text user "Released under the Creative Commons Attribution Share-Alike 4.0 License"
 			(at 0 -1.27 0)
-			(layer "User.1")
+			(layer "Eco2.User")
 			(uuid "ed799c29-f063-4aaa-9eb3-08cd52d55cf3")
 			(effects
 				(font
@@ -3525,7 +3529,7 @@
 	)
 	(gr_text "No Clean Process"
 		(at 226.06 182.88 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "274ecb59-f4c6-423b-802f-0a919616f5f9")
 		(effects
 			(font
@@ -3537,7 +3541,7 @@
 	)
 	(gr_text "Inner Copper Weight: 0.5oz"
 		(at 226.06 186.69 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "2858baea-d1cb-450e-a190-d2dfb264688f")
 		(effects
 			(font
@@ -3549,7 +3553,7 @@
 	)
 	(gr_text "Layers: 4"
 		(at 195.530892 182.88 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "3e3e79eb-b788-47f5-881c-1fb99efebd70")
 		(effects
 			(font
@@ -3561,7 +3565,7 @@
 	)
 	(gr_text "Silkscreen Color: White"
 		(at 195.58 180.975 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "408794df-6a1f-4d49-ad77-af2bb4848f3a")
 		(effects
 			(font
@@ -3573,7 +3577,7 @@
 	)
 	(gr_text "Solder Mask: Red"
 		(at 195.58 179.07 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "43d88d1a-0789-427f-bc72-baa547f83bc5")
 		(effects
 			(font
@@ -3585,7 +3589,7 @@
 	)
 	(gr_text "Material: TG155"
 		(at 226.06 180.975 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "4d08fef1-8855-4d24-8630-784a96fa9f21")
 		(effects
 			(font
@@ -3595,9 +3599,9 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Controlled Impedance: JLC7628"
+	(gr_text "Controlled Impedance: JLC04161H-7628"
 		(at 226.06 179.07 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "4e581c9e-1bc2-4fb0-8305-f1f403036b39")
 		(effects
 			(font
@@ -3609,7 +3613,7 @@
 	)
 	(gr_text "Outer Copper Weight: 1oz"
 		(at 226.06 184.785 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "8323c34b-eb6a-43a8-9e82-056debb9a918")
 		(effects
 			(font
@@ -3621,7 +3625,7 @@
 	)
 	(gr_text "Thickness: 1.6mm"
 		(at 195.58 184.785 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "8f722034-12e2-4580-80af-36cab437e75e")
 		(effects
 			(font
@@ -3633,7 +3637,7 @@
 	)
 	(gr_text "Finish: ENIG"
 		(at 195.58 186.69 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "bd7a27a4-955e-4d56-8275-86699208e261")
 		(effects
 			(font
@@ -3645,7 +3649,7 @@
 	)
 	(gr_text "Ordering Notes"
 		(at 189.23 175.895 0)
-		(layer "F.Fab")
+		(layer "Eco1.User")
 		(uuid "c9e97bfa-9240-4cf3-a2e5-7c247c1a73cb")
 		(effects
 			(font
@@ -3663,7 +3667,7 @@
 			(xy 115.57 73.66) (xy 166.37 73.66)
 		)
 		(height -3.81)
-		(gr_text "50.8 mm"
+		(gr_text "2000 mils"
 			(at 140.97 68.7 0)
 			(layer "Dwgs.User")
 			(uuid "413005b7-7c41-430c-b134-d144f15e490e")
@@ -3696,7 +3700,7 @@
 			(xy 166.37 124.46) (xy 166.37 121.92)
 		)
 		(height 2.54)
-		(gr_text "2.5 mm"
+		(gr_text "100 mils"
 			(at 167.76 123.19 90)
 			(layer "Dwgs.User")
 			(uuid "4246a048-ef4e-47de-a38a-2b90f409cd22")
@@ -3729,7 +3733,7 @@
 			(xy 115.57 124.46) (xy 118.11 124.46)
 		)
 		(height 2.54)
-		(gr_text "2.5 mm"
+		(gr_text "100 mils"
 			(at 116.84 125.85 0)
 			(layer "Dwgs.User")
 			(uuid "644fea28-ccaa-41fe-9928-e81a96dc6646")
@@ -3762,7 +3766,7 @@
 			(xy 115.57 124.46) (xy 115.57 73.66)
 		)
 		(height -3.81)
-		(gr_text "50.8 mm"
+		(gr_text "2000 mils"
 			(at 110.61 99.06 90)
 			(layer "Dwgs.User")
 			(uuid "9e5a99c6-aa6f-479a-8d85-5afca227b569")
