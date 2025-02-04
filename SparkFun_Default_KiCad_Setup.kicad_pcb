@@ -17,7 +17,7 @@
 		(0 "F.Cu" signal)
 		(1 "In1.Cu" signal "L2.Cu")
 		(2 "In2.Cu" signal "L3.Cu")
-		(31 "B.Cu" jumper)
+		(31 "B.Cu" signal)
 		(34 "B.Paste" user)
 		(35 "F.Paste" user)
 		(36 "B.SilkS" user "B.Silkscreen")
@@ -38,7 +38,7 @@
 		(51 "User.2" user "Design.Info")
 		(52 "User.3" user "Board.Properties")
 		(53 "User.4" user "Selective.Solder")
-		(54 "User.5" user "Enclsoure.Info")
+		(54 "User.5" user "Enclosure.Info")
 	)
 	(setup
 		(stackup
