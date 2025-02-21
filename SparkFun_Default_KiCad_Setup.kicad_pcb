@@ -3587,7 +3587,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "Material: TG155"
+	(gr_text "Material: TG135"
 		(at 226.06 180.975 0)
 		(layer "Eco1.User")
 		(uuid "4d08fef1-8855-4d24-8630-784a96fa9f21")
