@@ -118,7 +118,7 @@
         "max_error": 0.005,
         "min_clearance": 0.0,
         "min_connection": 0.0,
-        "min_copper_edge_clearance": 0.254,
+        "min_copper_edge_clearance": 0.0762,
         "min_hole_clearance": 0.25,
         "min_hole_to_hole": 0.25,
         "min_microvia_diameter": 0.2,
@@ -453,7 +453,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "SparkFun_Default_KiCad_Setup.kicad_pro",
+    "filename": "SparkFun_Basic_Board_Example.kicad_pro",
     "version": 1
   },
   "net_settings": {
