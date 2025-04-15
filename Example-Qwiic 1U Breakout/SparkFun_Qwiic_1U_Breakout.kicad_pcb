@@ -9,12 +9,10 @@
 	(paper "USLetter")
 	(title_block
 		(title "SparkFun Qwiic 5V Boost - AP3012K")
-		(date "2025-02-27")
+		(date "2025-04-11")
 		(rev "v10")
 		(company "SparkFun Electronics")
-		(comment 1 "SparkX Qwiic Boost by N. Seidle")
-		(comment 2 "Based off the Indoor Air Quality Combo and the")
-		(comment 3 "Designed by: P. Lewis")
+		(comment 1 "Designed by: P. Lewis")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -225,8 +223,8 @@
 		)
 		(property ki_fp_filters "SOT?23*")
 		(path "/5e0a91b8-41a4-45ec-a5f2-fa88782dd88c")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7088 -0.2684)
@@ -515,8 +513,8 @@
 		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/50fd615d-ccb5-48c4-b08c-2b3e879551d1")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.4 -0.5)
@@ -708,8 +706,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/3602d096-a2c9-48c7-93d8-ae094ffbafd9")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -904,8 +902,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/50963b34-7e59-414f-91bd-d6a88a7744dd")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_rect
 			(start -1.27 -1.27)
 			(end 13.97 1.27)
@@ -1442,11 +1440,11 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 		(layer "F.Cu")
 		(uuid "4bf2ef25-aaae-4b93-b460-f3eb94603582")
 		(at 143.9035 98.106 90)
-		(tags "SparkFun")
+		(tags "SparkFun Qwiic Connector")
 		(property "Reference" "J1"
 			(at 0 1.8 90)
 			(layer "F.Fab")
@@ -1472,15 +1470,15 @@
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 0 0 90)
+			(at 0 3.25 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "450afd38-a461-48cb-a5e4-28bc29482296")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -1499,9 +1497,10 @@
 		)
 		(property "PROD_ID" "CONN-13694"
 			(at 0 0 90)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "073ad3d0-d064-4741-91d9-f5b05485b6c4")
+			(uuid "8f9ce4f7-8035-489d-a33e-2a9919470f30")
 			(effects
 				(font
 					(size 1 1)
@@ -1511,8 +1510,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b6da6a9d-7766-4336-b283-72a0ef781ba9")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start 3 0.35)
 			(end 3 2)
@@ -1521,7 +1521,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0d5777e5-e80a-4f78-83b5-b0ff5fdf2bcb")
+			(uuid "d8538ce3-00e1-4689-aa35-6db718313a28")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -1531,7 +1531,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "80f08365-df43-4286-a5d6-044ad8973bd4")
+			(uuid "abbf369b-7454-4962-a26c-48d20dba74f2")
 		)
 		(fp_line
 			(start -3 0.35)
@@ -1541,7 +1541,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "1c91e3ef-6b21-490c-96cc-a4110ce6ba7e")
+			(uuid "83d9c4e8-9493-4a1d-a896-153699cddc87")
 		)
 		(fp_line
 			(start -3 2)
@@ -1551,7 +1551,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "0e1a82f5-ff8a-4d99-92c6-0d2f3e24cdda")
+			(uuid "50dddd01-868b-4334-bd92-ae2e898fef0e")
 		)
 		(fp_line
 			(start -1.5 4.6)
@@ -1561,18 +1561,20 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "63eedfc0-0ba8-4196-9e7a-6dfbb66246a4")
+			(uuid "140c4b8a-2ed2-44f7-89f6-8998ffdd03d9")
 		)
-		(fp_rect
-			(start 3.51 4.797)
-			(end -3.51 -0.819)
+		(fp_poly
+			(pts
+				(xy -3.55 4.95) (xy -3.55 2.6) (xy -3.25 2.6) (xy -3.25 0.2) (xy -1.95 0.2) (xy -1.95 -0.7) (xy 1.95 -0.7)
+				(xy 1.95 0.2) (xy 3.25 0.2) (xy 3.25 2.6) (xy 3.55 2.6) (xy 3.55 4.95)
+			)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "abbff0f7-71eb-4594-ae0a-b2776f8d77d6")
+			(uuid "7781f6d2-1e10-4b88-a4cc-34b3e64da2d2")
 		)
 		(pad "1" smd rect
 			(at -1.5 0 90)
@@ -1581,7 +1583,6 @@
 			(net 2 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "7578e3a1-5a67-4c67-9b30-62ef9f9dced2")
 		)
@@ -1592,8 +1593,6 @@
 			(net 1 "3.3V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
-			(zone_connect 2)
 			(thermal_bridge_angle 0)
 			(uuid "0da8c9f7-1928-4d4b-aa93-312bc6d989b4")
 		)
@@ -1604,7 +1603,6 @@
 			(net 5 "SDA")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "0beddfdd-7e8c-45e9-a2cc-1f5c9d7555ab")
 		)
@@ -1615,7 +1613,6 @@
 			(net 6 "SCL")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "d853087a-7df0-47fa-95b9-9a95a1a8605b")
 		)
@@ -1626,7 +1623,6 @@
 			(net 7 "unconnected-(J1-NC-PadNC1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "54551ef8-a8e0-4e38-b89e-cfc91804d11f")
 		)
@@ -1637,14 +1633,25 @@
 			(net 8 "unconnected-(J1-NC-PadNC2)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "fde4efe9-611d-4f48-8f78-0f872453cb7e")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/Qwiic-Horizontal.STEP"
 			(offset
-				(xyz 0 -0.5 -0.3)
+				(xyz 0 -0.7 -0.3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.0mm-4.STEP"
+			(hide yes)
+			(offset
+				(xyz 0 -0.7 -0.25)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -1822,8 +1829,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -1988,8 +1995,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/61fb13ee-6d6b-4d6e-a239-8c409252b482")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 -0.51)
@@ -2179,8 +2186,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/3c7aca20-7739-4ab5-bf9c-7eade66994b3")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -2284,8 +2291,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f5e77aa3-7db4-4f4a-979b-3674a2ef12f0")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -2418,13 +2425,13 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_RA"
+	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
 		(layer "F.Cu")
 		(uuid "77d9fc1c-550d-4b74-8fe5-75961a4482d7")
 		(at 128.0285 98.106 -90)
-		(tags "SparkFun")
+		(tags "SparkFun Qwiic Connector")
 		(property "Reference" "J2"
-			(at 0 1.8 90)
+			(at 0 1.8 270)
 			(layer "F.Fab")
 			(uuid "09e5982f-f8f2-4aa4-87c3-d9514806cf2f")
 			(effects
@@ -2432,11 +2439,11 @@
 					(size 0.5 0.5)
 					(thickness 0.1)
 				)
-				(justify top)
+				(justify bottom)
 			)
 		)
 		(property "Value" "Qwiic_RA"
-			(at 0 2.6 90)
+			(at 0 2.6 270)
 			(layer "F.Fab")
 			(uuid "f48e1d86-6d92-4523-bbd0-501bb682bded")
 			(effects
@@ -2444,19 +2451,19 @@
 					(size 0.5 0.5)
 					(thickness 0.1)
 				)
-				(justify top)
+				(justify bottom)
 			)
 		)
 		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/eSH.pdf"
-			(at 0 0 270)
+			(at 0 3.25 270)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "731b82f6-be2e-4788-a0a6-89bd41e16e25")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
+					(size 0.5 0.5)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -2474,10 +2481,11 @@
 			)
 		)
 		(property "PROD_ID" "CONN-13694"
-			(at 0 0 90)
+			(at 0 0 270)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "74585829-0da1-4ac8-b267-6f143592a5d3")
+			(uuid "21f034bd-8c87-4da5-a5a7-3438ba83731c")
 			(effects
 				(font
 					(size 1 1)
@@ -2487,8 +2495,9 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e99ef319-9d56-481f-bcd2-e57822056fbe")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
+		(attr smd)
 		(fp_line
 			(start -1.5 4.6)
 			(end 1.5 4.6)
@@ -2497,7 +2506,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "10199457-3e54-4601-a389-a94625b53bfc")
+			(uuid "2fb6153f-b084-45e1-81b1-549749d53f8b")
 		)
 		(fp_line
 			(start -3 2)
@@ -2507,7 +2516,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cd9b2865-de5c-4bb7-bf39-e824544a5c9e")
+			(uuid "7e2a7146-1d73-4a5c-8a4c-cd2d984de5e1")
 		)
 		(fp_line
 			(start -3 0.35)
@@ -2517,7 +2526,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "aa3fbd66-8e89-4dc3-8b43-c429eab6fcc3")
+			(uuid "fbed6e53-edb7-434e-a682-cd94056bfb4e")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -2527,7 +2536,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "acaf17e8-a61a-4771-9e00-f08e904d1c38")
+			(uuid "b472f7f7-2974-44c7-bfce-5391d25de206")
 		)
 		(fp_line
 			(start 3 0.35)
@@ -2537,18 +2546,20 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "b7df85b9-f783-4cf3-81d8-9196a17c5efe")
+			(uuid "1f05dafe-5cfd-43e4-9be1-bff8a2345fa4")
 		)
-		(fp_rect
-			(start 3.51 4.797)
-			(end -3.51 -0.819)
+		(fp_poly
+			(pts
+				(xy -3.55 4.95) (xy -3.55 2.6) (xy -3.25 2.6) (xy -3.25 0.2) (xy -1.95 0.2) (xy -1.95 -0.7) (xy 1.95 -0.7)
+				(xy 1.95 0.2) (xy 3.25 0.2) (xy 3.25 2.6) (xy 3.55 2.6) (xy 3.55 4.95)
+			)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "3221e641-7da3-4b4d-9c42-e29a8d5ca607")
+			(uuid "67506ec8-195d-4a03-869c-496f3b1febba")
 		)
 		(pad "1" smd rect
 			(at -1.5 0 270)
@@ -2557,7 +2568,6 @@
 			(net 2 "GND")
 			(pinfunction "Pin_1")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "9b1f199e-596c-4cf5-b7e2-7cb94994a6c8")
 		)
@@ -2568,8 +2578,6 @@
 			(net 1 "3.3V")
 			(pinfunction "Pin_2")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
-			(zone_connect 2)
 			(thermal_bridge_angle 0)
 			(uuid "3c2a57ff-96d4-410f-95c3-8550208a5e81")
 		)
@@ -2580,7 +2588,6 @@
 			(net 5 "SDA")
 			(pinfunction "Pin_3")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "37af5926-972f-47ec-9b33-843d0ce37687")
 		)
@@ -2591,7 +2598,6 @@
 			(net 6 "SCL")
 			(pinfunction "Pin_4")
 			(pintype "passive")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "591ce577-4a81-4afd-8d2a-95a849f95d9c")
 		)
@@ -2602,7 +2608,6 @@
 			(net 9 "unconnected-(J2-NC-PadNC1)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "65e7e62a-eddb-4b22-b163-0dea36b890d5")
 		)
@@ -2613,14 +2618,25 @@
 			(net 10 "unconnected-(J2-NC-PadNC2)")
 			(pinfunction "NC")
 			(pintype "no_connect")
-			(solder_mask_margin 0.1016)
 			(thermal_bridge_angle 0)
 			(uuid "0202fcff-637b-4559-850b-1e34997d302d")
 		)
 		(embedded_fonts no)
 		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/Qwiic-Horizontal.STEP"
 			(offset
-				(xyz 0 -0.5 -0.3)
+				(xyz 0 -0.7 -0.3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 0 0)
+			)
+		)
+		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.0mm-4.STEP"
+			(hide yes)
+			(offset
+				(xyz 0 -0.7 -0.25)
 			)
 			(scale
 				(xyz 1 1 1)
@@ -2851,8 +2867,8 @@
 			)
 		)
 		(path "/f9b68b98-e9e7-4c80-860d-80f4ae0141ba")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -1.4)
@@ -3059,8 +3075,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/f4aecd9a-c87d-405c-80a4-2f1128ab5e12")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3264,8 +3280,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9d6f2edc-ee72-4338-9d8c-76c35cf82327")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 0.5225)
@@ -3802,8 +3818,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/9279e0bf-613e-43d6-a144-e5555127b271")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4007,8 +4023,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/0c1e7869-cfa4-4da2-b8ae-450d20b016ea")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4379,8 +4395,8 @@
 		)
 		(property ki_fp_filters "Choke_* *Coil* Inductor_* L_*")
 		(path "/b4eaffb2-4ebd-4de2-902b-bbd2c2cfe9b3")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -4713,8 +4729,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1c244090-3238-4d81-b8ee-e48cd6cf0d5c")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -4905,8 +4921,8 @@
 			)
 		)
 		(path "/61301b78-3cf8-402e-ace7-cf63f2f7db5b")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
 			(at 0 1.27 0)
@@ -4991,8 +5007,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/56277993-b69c-4076-80f1-028732d58d81")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -5204,8 +5220,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -5345,8 +5361,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/5837fe7d-38ca-4380-97a8-b85b144f4495")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -5591,8 +5607,8 @@
 		)
 		(property ki_fp_filters "TO-???* *_Diode_* *SingleDiode* D_*")
 		(path "/37dafb35-9019-4cf1-be68-8a980601d79e")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.9 0.625)
@@ -5741,8 +5757,8 @@
 		)
 		(property ki_fp_filters "R_*")
 		(path "/1af74571-466f-410f-b9ad-d704bc6aeb7a")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.237258 -0.5225)
@@ -6132,8 +6148,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/4303701a-2b1c-4e66-9cdf-e0a63b48b2c2")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -6365,8 +6381,8 @@
 			)
 		)
 		(path "/e89dd13d-6d21-4df7-89ad-243a6120fa27")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.7 -1.4)
@@ -6761,8 +6777,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/01446c66-91f5-46d5-b726-b2bbfbf726eb")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -7267,8 +7283,8 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/ff5d2660-7671-4219-b41d-f0992e41a8cb")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.4 -0.4)
@@ -7354,8 +7370,8 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged123*")
 		(path "/61064102-3340-40da-a47f-b534f627af5e")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2,3")
 		(fp_poly
@@ -7940,8 +7956,8 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/b8ac0351-59c1-42a6-9084-e9e990e98a2e")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_poly
@@ -8145,8 +8161,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/ecaab292-da05-4b4f-b1f6-747ad8f43456")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -8371,8 +8387,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/b34b89d0-b9bd-477f-829d-749a87b7e2fb")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -9343,8 +9359,8 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged123*")
 		(path "/41489851-1da9-4273-aa35-4deb449abbfd")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2,3")
 		(fp_poly
@@ -9975,8 +9991,8 @@
 		)
 		(property ki_fp_filters "SolderJumper*Bridged12*")
 		(path "/0fae107c-79f9-4ae3-9f9c-472372594808")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(attr allow_soldermask_bridges)
 		(net_tie_pad_groups "1,2")
 		(fp_poly
@@ -10445,8 +10461,8 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1854e00c-bbb0-4545-8f18-d04650fbf941")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Qwiic_5V_Boost_AP3012K.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Qwiic_1U_Breakout.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.4 -0.4)
@@ -11460,70 +11476,10 @@
 			(justify mirror)
 		)
 	)
-	(gr_text "Outer Copper Weight: 1oz"
-		(at 198.354 158.865 0)
-		(layer "Eco1.User")
-		(uuid "1a3c0d87-3df6-4247-b179-764045f8f604")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Silkscreen Color: White"
-		(at 198.354 147.709 0)
-		(layer "Eco1.User")
-		(uuid "5f946d85-002b-45ba-9807-f8d94cda1946")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Finish: Lead-Free HASL"
-		(at 198.354 154.7 0)
-		(layer "Eco1.User")
-		(uuid "6702ad81-6061-4a78-a891-1bffe01cd417")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Ordering Notes"
-		(at 198.354 142.14 0)
-		(layer "Eco1.User")
-		(uuid "77208fd9-597d-41c4-915b-862e2f1a079c")
-		(effects
-			(font
-				(size 2 2)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
-	(gr_text "Solder Mask: Red"
-		(at 198.354 145.232 0)
-		(layer "Eco1.User")
-		(uuid "8c4d7694-f989-420c-a67a-6950781bec68")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
-			)
-			(justify left bottom)
-		)
-	)
 	(gr_text "Layers: 2"
-		(at 198.354 150.031 0)
+		(at 203.861892 182.561 0)
 		(layer "Eco1.User")
-		(uuid "aefd92df-f513-493c-bd93-fcc555128abd")
+		(uuid "15efb884-472a-422f-80e1-f91f2c46e31a")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11533,9 +11489,45 @@
 		)
 	)
 	(gr_text "Material: TG135"
-		(at 198.354 156.813 0)
+		(at 234.391 180.656 0)
 		(layer "Eco1.User")
-		(uuid "df49e96c-8046-425e-9812-cbd48512d962")
+		(uuid "451f160d-4d41-462f-8881-6b7926e58fbc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Silkscreen Color: White"
+		(at 203.911 180.656 0)
+		(layer "Eco1.User")
+		(uuid "472d7508-1693-4c00-8c20-e130dc4162fc")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Ordering Notes"
+		(at 197.561 175.576 0)
+		(layer "Eco1.User")
+		(uuid "50f07c62-e19a-46b7-9c87-6185f6fa1985")
+		(effects
+			(font
+				(size 2 2)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Outer Copper Weight: 1oz"
+		(at 234.391 184.466 0)
+		(layer "Eco1.User")
+		(uuid "56e270df-8cd3-4afa-a1b7-3375ee803a7c")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11545,9 +11537,33 @@
 		)
 	)
 	(gr_text "Thickness: 1.6mm"
-		(at 198.354 152.507 0)
+		(at 203.911 184.466 0)
 		(layer "Eco1.User")
-		(uuid "e67a56fb-e3cf-4966-ab03-56b7b0c93169")
+		(uuid "6efe8acd-d2c7-4d68-b0ac-a9a6426acdd5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Finish: HASL Lead-Free"
+		(at 203.911 186.371 0)
+		(layer "Eco1.User")
+		(uuid "cb3d2d50-c5ca-4c6e-9873-63bba3507aa2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Solder Mask: Red"
+		(at 203.911 178.751 0)
+		(layer "Eco1.User")
+		(uuid "e24d05f5-e7c5-430f-833e-8ad822bc086d")
 		(effects
 			(font
 				(size 1.27 1.27)

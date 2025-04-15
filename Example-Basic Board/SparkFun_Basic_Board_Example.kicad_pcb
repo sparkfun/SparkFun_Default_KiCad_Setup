@@ -227,8 +227,8 @@
 			)
 		)
 		(path "/a21e6db0-b885-4793-a405-9dcb22fe3734")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr exclude_from_bom)
 		(fp_text user " https://creativecommons.org/licenses/by-sa/4.0/"
 			(at 0 1.27 0)
@@ -299,7 +299,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "600mA low dropout linear regulator, with enable pin, 3.8V-6V input voltage range, 3.3V fixed positive output, SOT-23-5"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -347,7 +347,7 @@
 				)
 			)
 		)
-		(property "VMax" "6V"
+		(property "VMax" "5.5V"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -359,10 +359,23 @@
 				)
 			)
 		)
+		(property "IMax" "600mA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "32ad8b60-29e5-4f5e-9c7b-7e632831b734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOT?23?5*")
 		(path "/cdfa697e-e7e0-4f04-9164-1dfaae95c57a")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_line
 			(start -0.4294 -1.27)
 			(end 0.4294 -1.27)
@@ -624,7 +637,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Point"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -638,8 +651,8 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/c940a163-db7d-42f9-8ee0-b2f95ef1aa75")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.3 0.3)
@@ -706,7 +719,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -720,8 +733,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/56277993-b69c-4076-80f1-028732d58d81")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -782,7 +795,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -796,8 +809,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/7a72b518-2fca-4a85-8df7-c0d3aac86170")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -871,7 +884,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -885,8 +898,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/a7ec6cc9-20f8-4a12-9541-29a9be25ae1c")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -1126,7 +1139,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -1176,8 +1189,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/aa9eb691-e972-4df2-89dd-4a75608056ea")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -1351,7 +1364,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1365,8 +1378,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/7c6696af-f8ea-4dc6-9a32-3bca233b1d03")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -1955,7 +1968,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2005,8 +2018,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/49c9902b-96fb-44ba-8540-cd23d9f4fbaf")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2180,7 +2193,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Test Point"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2194,8 +2207,8 @@
 		)
 		(property ki_fp_filters "Pin* Test*")
 		(path "/1f5a2ff4-5949-427f-96b0-21e72279c06a")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end -0.3 0.3)
@@ -2262,7 +2275,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2312,8 +2325,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/db77a76e-0e11-4f24-a6a1-a0ee14a03fa1")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.14058 0.51)
@@ -2487,7 +2500,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2501,8 +2514,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/6685cf0a-6943-4c54-8d4f-b9f189ce2a54")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -2593,8 +2606,8 @@
 		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/f749197d-4bdd-492d-8481-f59d3ae8db27")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -3 0.35)
@@ -2784,7 +2797,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Unpolarized capacitor"
 			(at 0 0 270)
 			(layer "F.Fab")
 			(hide yes)
@@ -2834,8 +2847,8 @@
 		)
 		(property ki_fp_filters "C_*")
 		(path "/3f9c6745-093c-43e4-a840-0baff3ea70ee")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.107836 0.36)
@@ -3009,7 +3022,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Drill holes for mechanically mounting via screws, standoffs, etc."
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3023,8 +3036,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/01446c66-91f5-46d5-b726-b2bbfbf726eb")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(fp_circle
 			(center 0 0)
 			(end 2.794 0)
@@ -3087,7 +3100,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3101,8 +3114,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/dc433178-d09e-452f-afc5-9f3f7047a6a6")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
@@ -3178,7 +3191,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fiducial Marker"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3192,8 +3205,8 @@
 		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/8a112979-36f8-4a6b-b258-9444d791641a")
-		(sheetname "Root")
-		(sheetfile "SparkFun_Default_KiCad_Setup.kicad_sch")
+		(sheetname "/")
+		(sheetfile "SparkFun_Basic_Board_Example.kicad_sch")
 		(attr smd)
 		(fp_circle
 			(center 0 0)
