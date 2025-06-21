@@ -12,119 +12,6 @@
 		(comment 1 "Designed by: Elias Santistevan")
 	)
 	(lib_symbols
-		(symbol "Conn_01x01_PTH_1x1mm_1"
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "PTH_1x1mm"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
-				(at 0 -7.62 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "connector"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Connector*:*_1x??_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Conn_01x01_PTH_1x1mm_1_1_1"
-				(rectangle
-					(start -1.27 1.27)
-					(end 1.27 -1.27)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(rectangle
-					(start -1.27 0.127)
-					(end 0 -0.127)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 3.81)
-					(name "Pin_1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SparkFun-Aesthetic:Fiducial_0.5mm"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1680,7 +1567,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
+			(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -4172,6 +4059,7 @@
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
+				(color 132 132 132 1)
 			)
 		)
 		(uuid "619551d4-4d37-46cb-a5c4-fb97f45524ba")
@@ -4196,23 +4084,24 @@
 		)
 		(uuid "7d39fd15-6c4b-4bbe-b4be-fc36cde95261")
 	)
-	(text "Close \"ADDR\" Jumper to Change Address to 0x18\n"
+	(text "Close \"ADR\" jumper to change address to 0x18\n"
 		(exclude_from_sim no)
-		(at 106.68 50.546 0)
+		(at 134.62 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 132 132 1)
 			)
-			(justify left)
 		)
 		(uuid "7dc181b9-e83c-4706-9497-fab7a0cd878e")
 	)
-	(text "Default 7-bit Unshifted Address: 0x19"
+	(text "Default 7-bit unshifted I²C address: 0x19"
 		(exclude_from_sim no)
-		(at 84.074 30.48 0)
+		(at 81.28 30.48 0)
 		(effects
 			(font
 				(size 1.27 1.27)
+				(color 132 132 132 1)
 			)
 		)
 		(uuid "8b697d6c-b057-4125-ae98-018a7f59a495")
@@ -4229,25 +4118,15 @@
 	)
 	(text "Cut jumper to turn off power LED"
 		(exclude_from_sim no)
-		(at 197.358 31.496 0)
+		(at 210.82 31.75 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(color 132 132 132 1)
 			)
-			(justify left bottom)
+			(justify bottom)
 		)
 		(uuid "b2345bf1-d405-4d09-ab08-6c02cb45e830")
-	)
-	(text "Cut jumper to remove pull-up resistors.\n"
-		(exclude_from_sim no)
-		(at 213.36 113.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "b62bd826-e2b3-4cd3-8b9e-8aa0aa3cdd95")
 	)
 	(text "Power LED"
 		(exclude_from_sim no)
@@ -4269,17 +4148,23 @@
 		)
 		(uuid "e3099895-666e-4d5a-9517-deb0f77c8586")
 	)
+	(text "Cut jumper to remove pull-up resistors"
+		(exclude_from_sim no)
+		(at 210.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(color 132 132 132 1)
+			)
+			(justify bottom)
+		)
+		(uuid "e82ece30-5c78-46ac-b754-bbab560e20e4")
+	)
 	(junction
 		(at 52.07 58.42)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3591c929-25f6-4ebe-8ede-99af6cffc581")
-	)
-	(junction
-		(at 67.31 81.28)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "421cd929-bf18-46be-ab7b-edb8762efe2e")
 	)
 	(junction
 		(at 134.62 66.04)
@@ -4327,7 +4212,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 83.82) (xy 67.31 86.36)
+			(xy 67.31 83.82) (xy 67.31 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4427,16 +4312,6 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 81.28) (xy 67.31 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "20930478-14a0-4442-885b-5b6dc1786f37")
-	)
-	(wire
-		(pts
 			(xy 138.43 184.15) (xy 135.89 184.15)
 		)
 		(stroke
@@ -4467,16 +4342,6 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 58.42) (xy 52.07 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d9b9e7c-4dc0-4697-a1e5-ef5b88796e66")
-	)
-	(wire
-		(pts
 			(xy 207.01 124.46) (xy 208.28 124.46)
 		)
 		(stroke
@@ -4497,7 +4362,7 @@
 	)
 	(wire
 		(pts
-			(xy 205.74 133.35) (xy 207.01 133.35)
+			(xy 205.74 132.08) (xy 207.01 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4597,7 +4462,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 130.81) (xy 207.01 133.35)
+			(xy 207.01 130.81) (xy 207.01 132.08)
 		)
 		(stroke
 			(width 0)
@@ -4708,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 214.63 132.08) (xy 214.63 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9206a391-08e5-4136-8acf-b940dc5c3f24")
+	)
+	(wire
+		(pts
 			(xy 52.07 67.31) (xy 52.07 68.58)
 		)
 		(stroke
@@ -4728,7 +4603,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 57.15) (xy 43.18 58.42)
+			(xy 52.07 57.15) (xy 52.07 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4755,16 +4630,6 @@
 			(type default)
 		)
 		(uuid "a8569cd2-2b52-45a7-96bd-d97b3a0415d4")
-	)
-	(wire
-		(pts
-			(xy 67.31 81.28) (xy 67.31 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aad05927-adde-4805-a584-760702a790fd")
 	)
 	(wire
 		(pts
@@ -4816,16 +4681,6 @@
 			(type default)
 		)
 		(uuid "c4cadffe-8cc9-4bc1-aa6f-c544cd74c66d")
-	)
-	(wire
-		(pts
-			(xy 205.74 135.89) (xy 214.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ca27d31c-da7b-4840-a443-2131b4ae228f")
 	)
 	(wire
 		(pts
@@ -4900,7 +4755,7 @@
 	)
 	(wire
 		(pts
-			(xy 67.31 69.85) (xy 67.31 81.28)
+			(xy 67.31 69.85) (xy 67.31 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4931,6 +4786,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 132.08) (xy 214.63 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9ab9855-bcf8-4d75-9ffe-01bb26205c27")
+	)
+	(wire
+		(pts
 			(xy 66.04 142.24) (xy 66.04 143.51)
 		)
 		(stroke
@@ -4938,16 +4803,6 @@
 			(type default)
 		)
 		(uuid "fad42d4b-4217-4a0e-849b-c7f902895af0")
-	)
-	(wire
-		(pts
-			(xy 214.63 130.81) (xy 214.63 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff566654-0172-495a-a28f-5e8a5eb41f96")
 	)
 	(global_label "SDA"
 		(shape bidirectional)
@@ -5083,22 +4938,22 @@
 	)
 	(global_label "SCL"
 		(shape bidirectional)
-		(at 205.74 135.89 180)
+		(at 215.9 132.08 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "6c5c8ad0-d7ed-4a43-a27b-a95742d83c82")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.2472 135.89 0)
+			(at 223.5041 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5149,7 +5004,7 @@
 	)
 	(global_label "SDA"
 		(shape bidirectional)
-		(at 205.74 133.35 180)
+		(at 205.74 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5159,7 +5014,7 @@
 		)
 		(uuid "a46f0434-00be-41a5-a903-63cf5abe003c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.0754 133.35 0)
+			(at 198.0754 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5169,7 +5024,7 @@
 			)
 		)
 	)
-	(global_label "ADDR{slash}SDO"
+	(global_label "ADR{slash}SDO"
 		(shape input)
 		(at 132.08 66.04 180)
 		(fields_autoplaced yes)
@@ -5181,7 +5036,7 @@
 		)
 		(uuid "bef7f39f-ef88-4c2e-8251-0cdf104cda92")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 119.0557 66.04 0)
+			(at 120.3257 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5191,7 +5046,7 @@
 			)
 		)
 	)
-	(global_label "ADDR{slash}SDO"
+	(global_label "ADR{slash}SDO"
 		(shape input)
 		(at 96.52 66.04 0)
 		(fields_autoplaced yes)
@@ -5203,7 +5058,7 @@
 		)
 		(uuid "cb712c3e-aa20-45ff-abb5-ee05ba937a44")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.5443 66.04 0)
+			(at 108.2743 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5375,7 +5230,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "ADDR"
+		(property "Value" "~"
 			(at 137.16 71.12 90)
 			(effects
 				(font
@@ -5544,7 +5399,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
+		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
 			(at 106.68 147.32 0)
 			(effects
 				(font
@@ -6022,7 +5877,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "I2C"
+		(property "Value" "~"
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -6395,7 +6250,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:3.3V")
-		(at 43.18 57.15 0)
+		(at 52.07 57.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6403,7 +6258,7 @@
 		(dnp no)
 		(uuid "77a39352-b695-46e7-bb08-b8e76210f21c")
 		(property "Reference" "#PWR0109"
-			(at 43.18 60.96 0)
+			(at 52.07 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6412,7 +6267,7 @@
 			)
 		)
 		(property "Value" "3.3V"
-			(at 43.18 53.594 0)
+			(at 52.07 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6420,7 +6275,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6429,7 +6284,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,7 +6293,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"3.3V\""
-			(at 43.18 57.15 0)
+			(at 52.07 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6850,7 +6705,7 @@
 	)
 	(symbol
 		(lib_id "SparkFun-PowerSymbol:GND")
-		(at 67.31 86.36 0)
+		(at 67.31 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6858,7 +6713,7 @@
 		(dnp no)
 		(uuid "af70a2a7-f4b1-4d64-812a-b843b38a0f62")
 		(property "Reference" "#PWR0110"
-			(at 67.31 92.71 0)
+			(at 67.31 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6867,7 +6722,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 67.31 90.17 0)
+			(at 67.31 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +6730,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 67.31 86.36 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +6739,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 67.31 86.36 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +6748,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 67.31 86.36 0)
+			(at 67.31 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6972,70 +6827,6 @@
 			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "G3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
-		(at 259.08 175.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b34b89d0-b9bd-477f-829d-749a87b7e2fb")
-		(property "Reference" "FID1"
-			(at 259.08 172.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Fiducial_0.5mm"
-			(at 259.08 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
-			(at 259.08 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 259.08 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "FID1")
 					(unit 1)
 				)
 			)
@@ -7126,7 +6917,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "LED"
+		(property "Value" "~"
 			(at 212.598 58.674 90)
 			(effects
 				(font
@@ -7178,7 +6969,6 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x01_PTH_1x1mm_1")
 		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
 		(at 106.68 137.16 0)
 		(unit 1)
@@ -7205,7 +6995,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_1x1mm"
+		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -7319,27 +7109,23 @@
 		(fields_autoplaced yes)
 		(uuid "c690a15d-4519-40b6-9027-7a2a8165a791")
 		(property "Reference" "U1"
-			(at 70.866 56.388 0)
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left bottom)
-				(hide yes)
 			)
 		)
 		(property "Value" "LIS3DH"
-			(at 84.836 54.864 0)
+			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left top)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "SparkFun-Sensor:ST_LGA-16_3x3mm_P0.5mm_5x3"
-			(at 80.518 99.822 0)
+			(at 80.518 93.218 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7348,7 +7134,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.st.com/en/mems-and-sensors/lis3dh.html"
-			(at 81.28 92.964 0)
+			(at 81.28 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7357,7 +7143,7 @@
 			)
 		)
 		(property "Description" "The LIS3DH has dynamically user-selectable full scales of ±2g/±4g/±8g/±16g and is capable of measuring accelerations with output data rates from 1 Hz to 5.3 kHz."
-			(at 82.042 96.266 0)
+			(at 82.042 89.662 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7366,7 +7152,7 @@
 			)
 		)
 		(property "PROD_ID" "IC-13419"
-			(at 81.534 103.378 0)
+			(at 81.534 96.774 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7759,70 +7545,6 @@
 			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
 				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
 					(reference "#PWR0122")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "SparkFun-Aesthetic:Fiducial_0.5mm")
-		(at 259.08 179.07 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ecaab292-da05-4b4f-b1f6-747ad8f43456")
-		(property "Reference" "FID2"
-			(at 259.08 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Fiducial_0.5mm"
-			(at 259.08 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "SparkFun-Aesthetic:Fiducial_0.5mm_Mask1mm"
-			(at 259.08 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 259.08 182.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Fiducial Marker"
-			(at 259.08 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(instances
-			(project "SparkFun Indoor Air Quality Sensor - SCD41 SEN55"
-				(path "/e3dd3ae4-244d-4cba-9cca-5d2abf83f29a"
-					(reference "FID2")
 					(unit 1)
 				)
 			)
