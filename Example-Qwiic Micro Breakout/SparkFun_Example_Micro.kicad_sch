@@ -5228,10 +5228,11 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
 			)
 		)
-		(property "Value" "~"
-			(at 137.16 71.12 90)
+		(property "Value" "ADR"
+			(at 137.16 69.8499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5877,7 +5878,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "I2C"
 			(at 210.82 127 0)
 			(effects
 				(font
@@ -6917,7 +6918,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LED"
 			(at 212.598 58.674 90)
 			(effects
 				(font
