@@ -146,6 +146,8 @@
 	(net 15 "unconnected-(U1-ADC3-Pad13)")
 	(net 16 "unconnected-(J2-NC-PadNC2)")
 	(net 17 "unconnected-(J2-NC-PadNC1)")
+	(net 18 "NC2")
+	(net 19 "NC3")
 	(footprint "kibuzzard-689A65FB"
 		(layer "F.Cu")
 		(uuid "04029b47-195b-491d-bb1f-a4ded6247412")
@@ -160,6 +162,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -171,6 +174,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -248,7 +252,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -368,7 +372,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-14241"
+		(property "PROD_ID" "RES-25567"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -517,11 +521,10 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Connector:1x01_1x1mm"
+	(footprint "SparkFun-Connector:1x01_P2.0mm"
 		(layer "F.Cu")
 		(uuid "32e86325-0d05-4bd6-91d6-53c21673e547")
 		(at 128.346 104.456 180)
-		(descr "Plated Through Hole - No Silk Outline\n\nSpecifications:\n\n• Pin count:1\n• Pin pitch:0.1mm\n• Hole Size: .7mm\n• Annular Ring: 1.2mm\n\nMade for the small  https://www.sparkfun.com/products/18221  1mm Pitch Headers.")
 		(tags "SparkFun")
 		(property "Reference" "J5"
 			(at 0 -0.889 180)
@@ -551,7 +554,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -588,7 +591,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "bbfd7de1-fa80-4e1d-a8e7-6b4c37e9ad41")
+			(uuid "6b9b6301-f6cf-4d5d-82b5-e4a0e75bf772")
 		)
 		(fp_poly
 			(pts
@@ -600,7 +603,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "87d648b6-c0e6-464c-8b5b-cb0e02051823")
+			(uuid "ae4a259f-43ea-4340-89cc-dadd9824c2ce")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -631,6 +634,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -642,6 +646,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -703,6 +708,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -714,6 +720,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -802,11 +809,10 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "SparkFun-Connector:1x01_1x1mm"
+	(footprint "SparkFun-Connector:1x01_P2.0mm"
 		(layer "F.Cu")
 		(uuid "496c33c8-231a-4a74-958b-9b97e3782621")
 		(at 128.346 109.536 180)
-		(descr "Plated Through Hole - No Silk Outline\n\nSpecifications:\n\n• Pin count:1\n• Pin pitch:0.1mm\n• Hole Size: .7mm\n• Annular Ring: 1.2mm\n\nMade for the small  https://www.sparkfun.com/products/18221  1mm Pitch Headers.")
 		(tags "SparkFun")
 		(property "Reference" "J1"
 			(at 0 -0.889 180)
@@ -836,7 +842,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -873,7 +879,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "e05bf41b-3dab-4555-9874-73eed4c0d745")
+			(uuid "4d85517b-3b2f-4604-b9fb-8c153a6cc4f2")
 		)
 		(fp_poly
 			(pts
@@ -885,7 +891,7 @@
 			)
 			(fill yes)
 			(layer "F.Fab")
-			(uuid "8633d7bd-8c27-42b7-a3b1-6187e85d70c5")
+			(uuid "af40530e-ccec-41b0-bb0d-c603867e2edf")
 		)
 		(pad "1" thru_hole circle
 			(at 0 0 270)
@@ -1167,7 +1173,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-14341"
+		(property "PROD_ID" "RES-25566"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1559,7 +1565,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1677,7 +1683,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-15083"
+		(property "PROD_ID" "CAP-25565"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1690,7 +1696,7 @@
 				)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1866,6 +1872,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1877,6 +1884,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2297,6 +2305,9 @@
 			(at -1.4 -0.5 180)
 			(size 0.7 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 18 "NC2")
+			(pinfunction "NC2")
+			(pintype "power_in")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin 0)
 			(solder_paste_margin_ratio -0.1)
@@ -2307,6 +2318,9 @@
 			(at -1.4 0 180)
 			(size 0.7 0.28)
 			(layers "F.Cu" "F.Mask" "F.Paste")
+			(net 19 "NC3")
+			(pinfunction "NC3")
+			(pintype "power_in")
 			(solder_mask_margin 0.05)
 			(solder_paste_margin 0)
 			(solder_paste_margin_ratio -0.1)
@@ -2528,7 +2542,7 @@
 			)
 		)
 	)
-	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+	(footprint "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 		(layer "F.Cu")
 		(uuid "7f06f0e1-3d0c-4351-8d25-773b642f9d23")
 		(at 137.236 106.996 90)
@@ -2546,7 +2560,7 @@
 			)
 		)
 		(property "Value" "Qwiic_RA"
-			(at 0 2.075 90)
+			(at 0 2.6 90)
 			(layer "F.Fab")
 			(uuid "a1f1bd58-33c0-4163-ae23-68f98bf147b0")
 			(effects
@@ -2588,7 +2602,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "773138e2-183a-4627-8bb8-ce3bc0c012ff")
+			(uuid "f8dc6d9f-e77f-4caf-9c91-92b243391f17")
 			(effects
 				(font
 					(size 1 1)
@@ -2609,7 +2623,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "5c649488-63fb-4a4d-a31a-28588831f671")
+			(uuid "f16e9c34-a231-4b04-b342-d981bfc0430a")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -2619,7 +2633,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "24d4ec41-c80c-43a5-b234-952fa7388507")
+			(uuid "38c3485b-0404-4533-9373-8afd7ef4bb40")
 		)
 		(fp_line
 			(start -3 0.35)
@@ -2629,7 +2643,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "15555adb-7863-4ce2-b8ca-0b473ef015ef")
+			(uuid "23448d88-768e-4dfb-bccb-120a588abfd2")
 		)
 		(fp_line
 			(start -3 2)
@@ -2639,7 +2653,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "98e77ff7-9739-4f7b-9a7f-5b691fdc228f")
+			(uuid "3307d679-c456-43a3-8ce8-fa1646664db6")
 		)
 		(fp_line
 			(start -1.5 4.6)
@@ -2649,7 +2663,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "44df7246-a996-4212-aab1-e37b05fd5f57")
+			(uuid "daeb5cf4-0c00-4f3a-a4a9-b1d630922db6")
 		)
 		(fp_poly
 			(pts
@@ -2662,7 +2676,7 @@
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "26936da2-dbe2-46dd-bdc0-6f8af93cf357")
+			(uuid "bb3f0aea-e232-4df3-b6fa-1371800e3a60")
 		)
 		(pad "1" smd rect
 			(at -1.5 0 90)
@@ -2725,7 +2739,7 @@
 			(uuid "09501d05-3e3c-465f-ae16-bf74bace7af9")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/Qwiic-Horizontal.STEP"
+		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/Qwiic-Horizontal.step"
 			(offset
 				(xyz 0 -0.7 -0.3)
 			)
@@ -2736,7 +2750,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.0mm-4.STEP"
+		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/JST_SMD_1.0mm-4.step"
 			(hide yes)
 			(offset
 				(xyz 0 -0.7 -0.25)
@@ -2763,6 +2777,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2774,6 +2789,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2984,7 +3000,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "RES-14341"
+		(property "PROD_ID" "RES-25566"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3232,6 +3248,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3243,6 +3260,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -3550,7 +3568,7 @@
 				(justify top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -3667,7 +3685,7 @@
 				(justify bottom mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "ADR"
 			(at 0 -1.143 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -3681,7 +3699,7 @@
 				(justify top mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -3849,7 +3867,7 @@
 				(justify bottom mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "I2C"
 			(at 0 -1.143 90)
 			(layer "B.Fab")
 			(hide yes)
@@ -3863,7 +3881,7 @@
 				(justify top mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4103,7 +4121,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4190,7 +4208,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -4265,7 +4283,7 @@
 				(justify top mirror)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "LED"
 			(at 0 -1.143 0)
 			(layer "B.Fab")
 			(hide yes)
@@ -4279,7 +4297,7 @@
 				(justify bottom mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5059,6 +5077,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5071,6 +5090,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5191,7 +5211,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5261,6 +5281,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5273,6 +5294,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5443,6 +5465,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5455,6 +5478,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5597,7 +5621,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5667,6 +5691,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5679,6 +5704,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -5996,7 +6022,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "750 mils"
+		(gr_text "19.05 mm"
 			(at 132.791 98.1585 0)
 			(layer "Dwgs.User")
 			(uuid "2c88624d-3583-45ec-a5a1-b055aab4ade3")
@@ -6034,7 +6060,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "200 mils"
+		(gr_text "5.08 mm"
 			(at 125.806 101.3335 0)
 			(layer "Dwgs.User")
 			(uuid "40ebe670-7e1b-4cea-8757-ed6d58015f42")
@@ -6072,7 +6098,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "300 mils"
+		(gr_text "7.62 mm"
 			(at 143.956 106.996 90)
 			(layer "Dwgs.User")
 			(uuid "8c6cd1a0-d5c1-4bee-9368-70ec76c72e6f")
@@ -6110,7 +6136,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "50 mils"
+		(gr_text "1.27 mm"
 			(at 119.202 103.948 90)
 			(layer "Dwgs.User")
 			(uuid "ba75c76d-9f5d-44c9-b59d-5118499da6b2")
@@ -6148,7 +6174,7 @@
 			(extension_offset 0.5)
 			(keep_text_aligned yes)
 		)
-		(gr_text "100 mils"
+		(gr_text "2.54 mm"
 			(at 124.536 113.346 0)
 			(layer "Dwgs.User")
 			(uuid "deac13dd-22b8-4531-ba64-b24f8c37d782")

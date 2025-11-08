@@ -1215,7 +1215,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Capacitor:0.1uF_0402_10V_10%"
+		(symbol "SparkFun-Capacitor:0.1uF_0402_16V_10%"
 			(pin_numbers
 				(hide yes)
 			)
@@ -1270,7 +1270,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "CAP-15083"
+			(property "PROD_ID" "CAP-25565"
 				(at 0 -16.51 0)
 				(effects
 					(font
@@ -1279,7 +1279,7 @@
 					(hide yes)
 				)
 			)
-			(property "Voltage" "10V"
+			(property "Voltage" "16V"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -1295,7 +1295,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "SparkFun cap capacitor"
+			(property "ki_keywords" "SparkFun cap capacitor 100nF"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1313,7 +1313,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "0.1uF_0402_10V_10%_0_1"
+			(symbol "0.1uF_0402_16V_10%_0_1"
 				(polyline
 					(pts
 						(xy -1.524 0.508) (xy 1.524 0.508)
@@ -1339,7 +1339,7 @@
 					)
 				)
 			)
-			(symbol "0.1uF_0402_10V_10%_1_1"
+			(symbol "0.1uF_0402_16V_10%_1_1"
 				(pin passive line
 					(at 0 2.54 270)
 					(length 2.032)
@@ -1543,7 +1543,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Conn_01x01_PTH_1x1mm"
+		(symbol "SparkFun-Connector:Conn_01x01_P2.0mm"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1567,7 +1567,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+			(property "Footprint" "SparkFun-Connector:1x01_P2.0mm"
 				(at 0 -7.62 0)
 				(effects
 					(font
@@ -1612,7 +1612,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x01_PTH_1x1mm_1_1"
+			(symbol "Conn_01x01_P2.0mm_1_1"
 				(rectangle
 					(start -1.27 1.27)
 					(end 1.27 -1.27)
@@ -1656,7 +1656,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "SparkFun-Connector:Qwiic_Right_Angle"
+		(symbol "SparkFun-Connector:Qwiic_Horizontal"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -1680,7 +1680,7 @@
 					)
 				)
 			)
-			(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+			(property "Footprint" "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 				(at 0 -12.7 0)
 				(effects
 					(font
@@ -1734,7 +1734,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Qwiic_Right_Angle_0_0"
+			(symbol "Qwiic_Horizontal_0_0"
 				(polyline
 					(pts
 						(xy 5.6514 -4.1459) (xy 5.6299 -4.0654) (xy 5.5924 -3.9985) (xy 5.5373 -3.9428) (xy 5.4632 -3.8962)
@@ -1834,7 +1834,7 @@
 					)
 				)
 			)
-			(symbol "Qwiic_Right_Angle_1_1"
+			(symbol "Qwiic_Horizontal_1_1"
 				(rectangle
 					(start -1.27 3.81)
 					(end 7.62 -6.35)
@@ -3331,7 +3331,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "RES-14241"
+			(property "PROD_ID" "RES-25567"
 				(at 0 -6.35 0)
 				(effects
 					(font
@@ -3477,7 +3477,7 @@
 					(hide yes)
 				)
 			)
-			(property "PROD_ID" "RES-14341"
+			(property "PROD_ID" "RES-25566"
 				(at 0 -6.858 0)
 				(effects
 					(font
@@ -3774,7 +3774,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Accelerometer, Triple-Axis, Temperature"
+			(property "ki_keywords" "SparkFun Accelerometer, Triple-Axis, Temperature"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3824,6 +3824,44 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 6.35 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -12.7 3.81 0)
+					(length 2.54)
+					(hide yes)
+					(name "NC3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4079,7 +4117,7 @@
 		(at 84.074 25.146 0)
 		(effects
 			(font
-				(size 2.54 2.54)
+				(size 3 3)
 			)
 		)
 		(uuid "7d39fd15-6c4b-4bbe-b4be-fc36cde95261")
@@ -4849,7 +4887,7 @@
 		)
 	)
 	(global_label "INT1"
-		(shape input)
+		(shape output)
 		(at 100.33 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4959,7 +4997,7 @@
 		)
 	)
 	(global_label "INT1"
-		(shape input)
+		(shape output)
 		(at 96.52 71.12 0)
 		(fields_autoplaced yes)
 		(effects
@@ -5123,7 +5161,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-14241"
+		(property "PROD_ID" "RES-25567"
 			(at 140.97 62.23 0)
 			(effects
 				(font
@@ -5283,7 +5321,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Qwiic_Right_Angle")
+		(lib_id "SparkFun-Connector:Qwiic_Horizontal")
 		(at 72.39 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5310,7 +5348,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+		(property "Footprint" "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 			(at 72.39 149.86 0)
 			(effects
 				(font
@@ -5374,7 +5412,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
+		(lib_id "SparkFun-Connector:Conn_01x01_P2.0mm")
 		(at 106.68 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5400,7 +5438,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+		(property "Footprint" "SparkFun-Connector:1x01_P2.0mm"
 			(at 106.68 147.32 0)
 			(effects
 				(font
@@ -5568,7 +5606,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Capacitor:0.1uF_0402_10V_10%")
+		(lib_id "SparkFun-Capacitor:0.1uF_0402_16V_10%")
 		(at 55.88 64.77 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5622,7 +5660,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "CAP-15083"
+		(property "PROD_ID" "CAP-25565"
 			(at 55.88 81.28 0)
 			(effects
 				(font
@@ -5631,7 +5669,7 @@
 				(hide yes)
 			)
 		)
-		(property "Voltage" "10V"
+		(property "Voltage" "16V"
 			(at 58.42 66.0462 0)
 			(effects
 				(font
@@ -6129,7 +6167,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-14341"
+		(property "PROD_ID" "RES-25566"
 			(at 221.488 128.27 0)
 			(effects
 				(font
@@ -6970,7 +7008,7 @@
 		)
 	)
 	(symbol
-		(lib_id "SparkFun-Connector:Conn_01x01_PTH_1x1mm")
+		(lib_id "SparkFun-Connector:Conn_01x01_P2.0mm")
 		(at 106.68 137.16 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6996,7 +7034,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SparkFun-Connector:1x01_PTH_1x1mm"
+		(property "Footprint" "SparkFun-Connector:1x01_P2.0mm"
 			(at 106.68 144.78 0)
 			(effects
 				(font
@@ -7202,6 +7240,12 @@
 		)
 		(pin "8"
 			(uuid "db2ed68c-7082-4e33-92ff-95018cce4320")
+		)
+		(pin "2"
+			(uuid "bdb9d685-0485-45c6-9387-76540b311219")
+		)
+		(pin "3"
+			(uuid "99db3a8d-d28f-44d3-8906-f3c11345c80b")
 		)
 		(instances
 			(project ""
@@ -7757,7 +7801,7 @@
 		(dnp no)
 		(uuid "ffefe745-593d-4b12-8170-fc651390e789")
 		(property "Reference" "R1"
-			(at 201.422 127 90)
+			(at 201.93 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7766,7 +7810,7 @@
 			)
 		)
 		(property "Value" "2.2k"
-			(at 201.422 129.54 90)
+			(at 200.66 129.54 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7801,7 +7845,7 @@
 				(hide yes)
 			)
 		)
-		(property "PROD_ID" "RES-14341"
+		(property "PROD_ID" "RES-25566"
 			(at 213.868 128.27 0)
 			(effects
 				(font

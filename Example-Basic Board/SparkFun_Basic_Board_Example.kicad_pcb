@@ -138,7 +138,6 @@
 			(psnegative no)
 			(psa4output no)
 			(plot_black_and_white yes)
-			(plotinvisibletext no)
 			(sketchpadsonfab no)
 			(plotpadnumbers no)
 			(hidednponfab no)
@@ -625,7 +624,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -707,7 +706,7 @@
 				(justify top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -783,7 +782,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -872,7 +871,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1352,7 +1351,7 @@
 				(justify top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -1980,7 +1979,7 @@
 				)
 			)
 		)
-		(property "PROD_ID" "CAP-11015"
+		(property "PROD_ID" "CAP-25001"
 			(at 40.005 253.365 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2181,7 +2180,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2488,7 +2487,7 @@
 				(justify top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2536,7 +2535,7 @@
 		)
 		(embedded_fonts no)
 	)
-	(footprint "SparkFun-Connector:JST_SMD_1.0mm-4_Black"
+	(footprint "SparkFun-Connector:JST_1x04_P1.0mm_Horizontal_SMD"
 		(layer "F.Cu")
 		(uuid "ec27b2bd-31cd-4e2c-bf66-977f597d2cec")
 		(at 140.97 119.296)
@@ -2596,7 +2595,7 @@
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6414995c-2025-4881-86b6-aecce3e4971d")
+			(uuid "1f6f8e55-4cea-4733-80dd-bf7066174b70")
 			(effects
 				(font
 					(size 1 1)
@@ -2617,7 +2616,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "fcf9862e-3738-45b6-ae0b-7b34b7c0b091")
+			(uuid "bd8e9d56-1f17-48ee-86a7-604edf8c44e6")
 		)
 		(fp_line
 			(start -3 2)
@@ -2627,7 +2626,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "a2e95b87-556e-4d9e-a3eb-ffda2409093e")
+			(uuid "536c8d3f-0f7e-44e6-93bd-e514afb5d1b7")
 		)
 		(fp_line
 			(start -1.5 4.6)
@@ -2637,7 +2636,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "6aeb01fa-bdac-4b3d-9058-2bead0451618")
+			(uuid "fe26bc60-5b8f-40b0-868f-7b1b8ff4d32b")
 		)
 		(fp_line
 			(start 2.25 0.35)
@@ -2647,7 +2646,7 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "cae718fb-26f0-441e-b250-ecee35eb13c6")
+			(uuid "7a725e42-7810-403a-83a8-705d981b0e10")
 		)
 		(fp_line
 			(start 3 0.35)
@@ -2657,18 +2656,20 @@
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "68664441-c1a4-4862-89c3-f4247966fcf5")
+			(uuid "521d03cb-3af9-4bb4-91d0-08bfb7e57250")
 		)
-		(fp_rect
-			(start 3.51 4.797)
-			(end -3.51 -0.819)
+		(fp_poly
+			(pts
+				(xy -3.55 4.95) (xy -3.55 2.6) (xy -3.25 2.6) (xy -3.25 0.2) (xy -1.95 0.2) (xy -1.95 -0.8) (xy 1.95 -0.8)
+				(xy 1.95 0.2) (xy 3.25 0.2) (xy 3.25 2.6) (xy 3.55 2.6) (xy 3.55 4.95)
+			)
 			(stroke
 				(width 0.05)
-				(type default)
+				(type solid)
 			)
 			(fill no)
 			(layer "F.CrtYd")
-			(uuid "dbc73402-1933-44fa-b60e-f3b9f111c19a")
+			(uuid "008f4658-f662-44fa-be75-5f242385e12d")
 		)
 		(pad "1" smd rect
 			(at -1.5 0)
@@ -2731,7 +2732,7 @@
 			(uuid "0a76e59b-6d51-4e4a-96ef-12bccae4fc18")
 		)
 		(embedded_fonts no)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/Qwiic-Horizontal.STEP"
+		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/Qwiic-Horizontal.step"
 			(offset
 				(xyz 0 -0.7 -0.3)
 			)
@@ -2742,7 +2743,7 @@
 				(xyz -90 0 0)
 			)
 		)
-		(model "${SPARKFUN_KICAD_LIBRARY}/Footprints/SparkFun-3D-models/Connector/JST_SMD_1.0mm-4.STEP"
+		(model "${SPARKFUN_KICAD_LIBRARY}/3dmodels/Connector.3dshapes/JST_SMD_1.0mm-4.step"
 			(hide yes)
 			(offset
 				(xyz 0 -0.7 -0.25)
@@ -3010,7 +3011,7 @@
 				(justify top)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -3088,7 +3089,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
@@ -3179,7 +3180,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "~"
 			(at 0 0 180)
 			(layer "F.Fab")
 			(hide yes)
